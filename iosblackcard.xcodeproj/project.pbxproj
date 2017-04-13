@@ -15,6 +15,7 @@
 		6E4BED6D1E9F9139000DEACD /* iosblackcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED6C1E9F9139000DEACD /* iosblackcardTests.swift */; };
 		6E4BED781E9F9139000DEACD /* iosblackcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED771E9F9139000DEACD /* iosblackcardUITests.swift */; };
 		750D03863A6F9E7E8B5DA238 /* Pods_iosblackcard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37C74929888D85D5B8BC7C5 /* Pods_iosblackcard.framework */; };
+		A0AFC7721E9F9ABD004E6439 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AFC7711E9F9ABD004E6439 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6E4BED771E9F9139000DEACD /* iosblackcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosblackcardUITests.swift; sourceTree = "<group>"; };
 		6E4BED791E9F9139000DEACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		930268F7BDDA72E56B04CD7D /* Pods-iosblackcard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosblackcard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosblackcard/Pods-iosblackcard.debug.xcconfig"; sourceTree = "<group>"; };
+		A0AFC7711E9F9ABD004E6439 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		C152F06A0714394665334365 /* Pods-iosblackcard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosblackcard.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosblackcard/Pods-iosblackcard.release.xcconfig"; sourceTree = "<group>"; };
 		F37C74929888D85D5B8BC7C5 /* Pods_iosblackcard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosblackcard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -104,6 +106,7 @@
 		6E4BED561E9F9138000DEACD /* iosblackcard */ = {
 			isa = PBXGroup;
 			children = (
+				A0AFC7701E9F9A99004E6439 /* Login&Regist */,
 				6E4BED571E9F9138000DEACD /* AppDelegate.swift */,
 				6E4BED591E9F9138000DEACD /* ViewController.swift */,
 				6E4BED5B1E9F9138000DEACD /* Main.storyboard */,
@@ -130,6 +133,14 @@
 				6E4BED791E9F9139000DEACD /* Info.plist */,
 			);
 			path = iosblackcardUITests;
+			sourceTree = "<group>";
+		};
+		A0AFC7701E9F9A99004E6439 /* Login&Regist */ = {
+			isa = PBXGroup;
+			children = (
+				A0AFC7711E9F9ABD004E6439 /* LoginVC.swift */,
+			);
+			path = "Login&Regist";
 			sourceTree = "<group>";
 		};
 		C224A0BFBD5FC845E9207369 /* Frameworks */ = {
@@ -336,6 +347,7 @@
 			files = (
 				6E4BED5A1E9F9138000DEACD /* ViewController.swift in Sources */,
 				6E4BED581E9F9138000DEACD /* AppDelegate.swift in Sources */,
+				A0AFC7721E9F9ABD004E6439 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +594,7 @@
 				6E4BED7E1E9F9139000DEACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E4BED7F1E9F9139000DEACD /* Build configuration list for PBXNativeTarget "iosblackcardTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +603,7 @@
 				6E4BED811E9F9139000DEACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E4BED821E9F9139000DEACD /* Build configuration list for PBXNativeTarget "iosblackcardUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +612,7 @@
 				6E4BED841E9F9139000DEACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
