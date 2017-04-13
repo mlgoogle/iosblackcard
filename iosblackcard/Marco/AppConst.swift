@@ -40,17 +40,6 @@ class AppConst {
     }
     
     class Color {
-        static let C0 = UIColor(rgbHex:0x131f32)
-        static let CR = UIColor(rgbHex:0xb82525)
-        static let C1 = UIColor.black
-        static let C2 = UIColor(rgbHex:0x666666)
-        static let C3 = UIColor(rgbHex:0x999999)
-        static let C4 = UIColor(rgbHex:0xaaaaaa)
-        static let C5 = UIColor(rgbHex:0xe2e2e2)
-        static let C6 = UIColor(rgbHex:0xf2f2f2)
-        //wp
-        static let CMain = UIColor(rgbHex: 0x268dcf)
-        static let CGreen = UIColor(rgbHex: 0x009944)
 
         static let main = "main"
         static let background = "background"

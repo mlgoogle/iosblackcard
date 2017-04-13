@@ -27,19 +27,9 @@ class HttpRequestModel: Object {
         
         
         mutabledic.setValuesForKeys(dictionary)
-        if UUID.cheDevivce("deviceKeyId") == false {
-            self.keyId = 34474661562457
-        }else{
-           self.keyId =  Int64.init(UUID.getData("deviceKeyId"))!
-        }
-        if UserDefaults.standard.object(forKey: "firstIn") == nil   {
-            
-            self.keyId = 34474661562457
-            UserDefaults.standard.setValue("1", forKey: "firstIn")
-        }
+
 //0
         self.appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String
-        self.timestamp = Int(Date.nowTimestemp())
         var signString = AppConst.Network.TttpHostUrl + requestPath
         for prop in objectSchema.properties as [Property]! {
             if prop.name == "requestPath" {
@@ -54,7 +44,6 @@ class HttpRequestModel: Object {
                 mutabledic.setValue(self[prop.name], forKey: prop.name)
             }
         }
-        mutabledic.setValue(signString.getSignString(), forKey: "sign")
         mutabledic.removeObject(forKey: "requestPath")
         return mutabledic
     }
