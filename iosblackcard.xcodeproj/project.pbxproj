@@ -7,13 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E4BED581E9F9138000DEACD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED571E9F9138000DEACD /* AppDelegate.swift */; };
-		6E4BED5A1E9F9138000DEACD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED591E9F9138000DEACD /* ViewController.swift */; };
-		6E4BED5D1E9F9138000DEACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BED5B1E9F9138000DEACD /* Main.storyboard */; };
-		6E4BED5F1E9F9138000DEACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BED5E1E9F9138000DEACD /* Assets.xcassets */; };
-		6E4BED621E9F9138000DEACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BED601E9F9138000DEACD /* LaunchScreen.storyboard */; };
 		6E4BED6D1E9F9139000DEACD /* iosblackcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED6C1E9F9139000DEACD /* iosblackcardTests.swift */; };
 		6E4BED781E9F9139000DEACD /* iosblackcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED771E9F9139000DEACD /* iosblackcardUITests.swift */; };
+		6E4BEDB11E9F9A18000DEACD /* AppAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED861E9F9A18000DEACD /* AppAPIHelper.swift */; };
+		6E4BEDB21E9F9A18000DEACD /* HttpModelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED871E9F9A18000DEACD /* HttpModelHelper.swift */; };
+		6E4BEDB31E9F9A18000DEACD /* HttpRequestManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED881E9F9A18000DEACD /* HttpRequestManage.swift */; };
+		6E4BEDB81E9F9A18000DEACD /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BED931E9F9A18000DEACD /* libWeChatSDK.a */; };
+		6E4BEDB91E9F9A18000DEACD /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BED941E9F9A18000DEACD /* README.txt */; };
+		6E4BEDBA1E9F9A18000DEACD /* AppConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED991E9F9A18000DEACD /* AppConst.swift */; };
+		6E4BEDBB1E9F9A18000DEACD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED9C1E9F9A18000DEACD /* AppDelegate.swift */; };
+		6E4BEDBC1E9F9A18000DEACD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED9D1E9F9A18000DEACD /* ViewController.swift */; };
+		6E4BEDBD1E9F9A18000DEACD /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BEDA01E9F9A18000DEACD /* Contents.json */; };
+		6E4BEDBE1E9F9A18000DEACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BEDA11E9F9A18000DEACD /* LaunchScreen.storyboard */; };
+		6E4BEDBF1E9F9A18000DEACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BEDA31E9F9A18000DEACD /* Main.storyboard */; };
+		6E4BEDC01E9F9A18000DEACD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BEDA81E9F9A18000DEACD /* Info.plist */; };
+		6E4BEDCA1E9F9A61000DEACD /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC11E9F9A61000DEACD /* AFNetworking.framework */; };
+		6E4BEDCB1E9F9A61000DEACD /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC21E9F9A61000DEACD /* Alamofire.framework */; };
+		6E4BEDCC1E9F9A61000DEACD /* HappyDNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC31E9F9A61000DEACD /* HappyDNS.framework */; };
+		6E4BEDCD1E9F9A61000DEACD /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC41E9F9A61000DEACD /* Kingfisher.framework */; };
+		6E4BEDCE1E9F9A61000DEACD /* Qiniu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC51E9F9A61000DEACD /* Qiniu.framework */; };
+		6E4BEDCF1E9F9A61000DEACD /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC61E9F9A61000DEACD /* Realm.framework */; };
+		6E4BEDD01E9F9A61000DEACD /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC71E9F9A61000DEACD /* RealmSwift.framework */; };
+		6E4BEDD11E9F9A61000DEACD /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC81E9F9A61000DEACD /* SnapKit.framework */; };
+		6E4BEDD21E9F9A61000DEACD /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC91E9F9A61000DEACD /* SVProgressHUD.framework */; };
+		6E4BEDD41E9F9B3C000DEACD /* SVProgressHUDExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BEDD31E9F9B3C000DEACD /* SVProgressHUDExt.swift */; };
+		6E4BEDD61E9F9B48000DEACD /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BEDD51E9F9B48000DEACD /* String+Extension.swift */; };
+		6E4BEDDC1E9F9C29000DEACD /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDDB1E9F9C29000DEACD /* libstdc++.tbd */; };
+		6E4BEDDE1E9F9C33000DEACD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDDD1E9F9C33000DEACD /* libsqlite3.tbd */; };
+		6E4BEDE01E9F9C49000DEACD /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDDF1E9F9C49000DEACD /* libz.tbd */; };
+		6E4BEDE21E9F9C75000DEACD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDE11E9F9C75000DEACD /* CFNetwork.framework */; };
+		6E4BEDE41E9F9CD1000DEACD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDE31E9F9CD1000DEACD /* SystemConfiguration.framework */; };
+		6E4BEDE61E9F9CED000DEACD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDE51E9F9CED000DEACD /* CoreTelephony.framework */; };
+		6E4BEDE81E9F9CF4000DEACD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDE71E9F9CF4000DEACD /* Security.framework */; };
 		750D03863A6F9E7E8B5DA238 /* Pods_iosblackcard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37C74929888D85D5B8BC7C5 /* Pods_iosblackcard.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,18 +61,46 @@
 
 /* Begin PBXFileReference section */
 		6E4BED541E9F9138000DEACD /* iosblackcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosblackcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E4BED571E9F9138000DEACD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E4BED591E9F9138000DEACD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6E4BED5C1E9F9138000DEACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6E4BED5E1E9F9138000DEACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6E4BED611E9F9138000DEACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6E4BED631E9F9138000DEACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E4BED681E9F9139000DEACD /* iosblackcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosblackcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4BED6C1E9F9139000DEACD /* iosblackcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosblackcardTests.swift; sourceTree = "<group>"; };
 		6E4BED6E1E9F9139000DEACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E4BED731E9F9139000DEACD /* iosblackcardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosblackcardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4BED771E9F9139000DEACD /* iosblackcardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosblackcardUITests.swift; sourceTree = "<group>"; };
 		6E4BED791E9F9139000DEACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4BED861E9F9A18000DEACD /* AppAPIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppAPIHelper.swift; sourceTree = "<group>"; };
+		6E4BED871E9F9A18000DEACD /* HttpModelHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpModelHelper.swift; sourceTree = "<group>"; };
+		6E4BED881E9F9A18000DEACD /* HttpRequestManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequestManage.swift; sourceTree = "<group>"; };
+		6E4BED931E9F9A18000DEACD /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		6E4BED941E9F9A18000DEACD /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		6E4BED951E9F9A18000DEACD /* WechatAuthSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		6E4BED961E9F9A18000DEACD /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		6E4BED971E9F9A18000DEACD /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		6E4BED991E9F9A18000DEACD /* AppConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConst.swift; sourceTree = "<group>"; };
+		6E4BED9C1E9F9A18000DEACD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E4BED9D1E9F9A18000DEACD /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6E4BEDA01E9F9A18000DEACD /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		6E4BEDA21E9F9A18000DEACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E4BEDA41E9F9A18000DEACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E4BEDA81E9F9A18000DEACD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E4BEDC11E9F9A61000DEACD /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		6E4BEDC21E9F9A61000DEACD /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/iosblackcard-djncflayrpazstevnmtbycudusih/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		6E4BEDC31E9F9A61000DEACD /* HappyDNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HappyDNS.framework; path = "Pods/../build/Debug-iphoneos/HappyDNS/HappyDNS.framework"; sourceTree = "<group>"; };
+		6E4BEDC41E9F9A61000DEACD /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = "../../Library/Developer/Xcode/DerivedData/iosblackcard-djncflayrpazstevnmtbycudusih/Build/Products/Debug-iphonesimulator/Kingfisher/Kingfisher.framework"; sourceTree = "<group>"; };
+		6E4BEDC51E9F9A61000DEACD /* Qiniu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Qiniu.framework; path = "Pods/../build/Debug-iphoneos/Qiniu/Qiniu.framework"; sourceTree = "<group>"; };
+		6E4BEDC61E9F9A61000DEACD /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "Pods/../build/Debug-iphoneos/Realm/Realm.framework"; sourceTree = "<group>"; };
+		6E4BEDC71E9F9A61000DEACD /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "Pods/../build/Debug-iphoneos/RealmSwift/RealmSwift.framework"; sourceTree = "<group>"; };
+		6E4BEDC81E9F9A61000DEACD /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "../../Library/Developer/Xcode/DerivedData/iosblackcard-djncflayrpazstevnmtbycudusih/Build/Products/Debug-iphonesimulator/SnapKit/SnapKit.framework"; sourceTree = "<group>"; };
+		6E4BEDC91E9F9A61000DEACD /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = "Pods/../build/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework"; sourceTree = "<group>"; };
+		6E4BEDD31E9F9B3C000DEACD /* SVProgressHUDExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVProgressHUDExt.swift; sourceTree = "<group>"; };
+		6E4BEDD51E9F9B48000DEACD /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		6E4BEDD71E9F9B7C000DEACD /* iosblackcard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "iosblackcard-Bridging-Header.h"; path = "../Other/iosblackcard-Bridging-Header.h"; sourceTree = "<group>"; };
+		6E4BEDDB1E9F9C29000DEACD /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		6E4BEDDD1E9F9C33000DEACD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6E4BEDDF1E9F9C49000DEACD /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6E4BEDE11E9F9C75000DEACD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		6E4BEDE31E9F9CD1000DEACD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6E4BEDE51E9F9CED000DEACD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		6E4BEDE71E9F9CF4000DEACD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		930268F7BDDA72E56B04CD7D /* Pods-iosblackcard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosblackcard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosblackcard/Pods-iosblackcard.debug.xcconfig"; sourceTree = "<group>"; };
 		C152F06A0714394665334365 /* Pods-iosblackcard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosblackcard.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosblackcard/Pods-iosblackcard.release.xcconfig"; sourceTree = "<group>"; };
 		F37C74929888D85D5B8BC7C5 /* Pods_iosblackcard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosblackcard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +111,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E4BEDE81E9F9CF4000DEACD /* Security.framework in Frameworks */,
+				6E4BEDE61E9F9CED000DEACD /* CoreTelephony.framework in Frameworks */,
+				6E4BEDE41E9F9CD1000DEACD /* SystemConfiguration.framework in Frameworks */,
+				6E4BEDE21E9F9C75000DEACD /* CFNetwork.framework in Frameworks */,
+				6E4BEDE01E9F9C49000DEACD /* libz.tbd in Frameworks */,
+				6E4BEDDE1E9F9C33000DEACD /* libsqlite3.tbd in Frameworks */,
+				6E4BEDDC1E9F9C29000DEACD /* libstdc++.tbd in Frameworks */,
+				6E4BEDCA1E9F9A61000DEACD /* AFNetworking.framework in Frameworks */,
+				6E4BEDCB1E9F9A61000DEACD /* Alamofire.framework in Frameworks */,
+				6E4BEDCC1E9F9A61000DEACD /* HappyDNS.framework in Frameworks */,
+				6E4BEDCD1E9F9A61000DEACD /* Kingfisher.framework in Frameworks */,
+				6E4BEDCE1E9F9A61000DEACD /* Qiniu.framework in Frameworks */,
+				6E4BEDCF1E9F9A61000DEACD /* Realm.framework in Frameworks */,
+				6E4BEDD01E9F9A61000DEACD /* RealmSwift.framework in Frameworks */,
+				6E4BEDD11E9F9A61000DEACD /* SnapKit.framework in Frameworks */,
+				6E4BEDD21E9F9A61000DEACD /* SVProgressHUD.framework in Frameworks */,
+				6E4BEDB81E9F9A18000DEACD /* libWeChatSDK.a in Frameworks */,
 				750D03863A6F9E7E8B5DA238 /* Pods_iosblackcard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -104,12 +174,14 @@
 		6E4BED561E9F9138000DEACD /* iosblackcard */ = {
 			isa = PBXGroup;
 			children = (
-				6E4BED571E9F9138000DEACD /* AppDelegate.swift */,
-				6E4BED591E9F9138000DEACD /* ViewController.swift */,
-				6E4BED5B1E9F9138000DEACD /* Main.storyboard */,
-				6E4BED5E1E9F9138000DEACD /* Assets.xcassets */,
-				6E4BED601E9F9138000DEACD /* LaunchScreen.storyboard */,
-				6E4BED631E9F9138000DEACD /* Info.plist */,
+				6E4BED851E9F9A18000DEACD /* AppAPI */,
+				6E4BED891E9F9A18000DEACD /* General */,
+				6E4BED911E9F9A18000DEACD /* Library */,
+				6E4BED981E9F9A18000DEACD /* Marco */,
+				6E4BED9A1E9F9A18000DEACD /* Model */,
+				6E4BED9B1E9F9A18000DEACD /* Other */,
+				6E4BED9E1E9F9A18000DEACD /* Resource */,
+				6E4BEDAA1E9F9A18000DEACD /* Scenes */,
 			);
 			path = iosblackcard;
 			sourceTree = "<group>";
@@ -132,9 +204,219 @@
 			path = iosblackcardUITests;
 			sourceTree = "<group>";
 		};
+		6E4BED851E9F9A18000DEACD /* AppAPI */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BED861E9F9A18000DEACD /* AppAPIHelper.swift */,
+				6E4BED871E9F9A18000DEACD /* HttpModelHelper.swift */,
+				6E4BED881E9F9A18000DEACD /* HttpRequestManage.swift */,
+			);
+			path = AppAPI;
+			sourceTree = "<group>";
+		};
+		6E4BED891E9F9A18000DEACD /* General */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BED8A1E9F9A18000DEACD /* Base */,
+				6E4BED8F1E9F9A18000DEACD /* Extension */,
+				6E4BED901E9F9A18000DEACD /* Helper */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		6E4BED8A1E9F9A18000DEACD /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6E4BED8F1E9F9A18000DEACD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BEDD31E9F9B3C000DEACD /* SVProgressHUDExt.swift */,
+				6E4BEDD51E9F9B48000DEACD /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6E4BED901E9F9A18000DEACD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		6E4BED911E9F9A18000DEACD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BED921E9F9A18000DEACD /* WeChatSDK1.7.4 */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		6E4BED921E9F9A18000DEACD /* WeChatSDK1.7.4 */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BED931E9F9A18000DEACD /* libWeChatSDK.a */,
+				6E4BED941E9F9A18000DEACD /* README.txt */,
+				6E4BED951E9F9A18000DEACD /* WechatAuthSDK.h */,
+				6E4BED961E9F9A18000DEACD /* WXApi.h */,
+				6E4BED971E9F9A18000DEACD /* WXApiObject.h */,
+			);
+			path = WeChatSDK1.7.4;
+			sourceTree = "<group>";
+		};
+		6E4BED981E9F9A18000DEACD /* Marco */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BED991E9F9A18000DEACD /* AppConst.swift */,
+				6E4BEDD71E9F9B7C000DEACD /* iosblackcard-Bridging-Header.h */,
+			);
+			path = Marco;
+			sourceTree = "<group>";
+		};
+		6E4BED9A1E9F9A18000DEACD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E4BED9B1E9F9A18000DEACD /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BED9C1E9F9A18000DEACD /* AppDelegate.swift */,
+				6E4BED9D1E9F9A18000DEACD /* ViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		6E4BED9E1E9F9A18000DEACD /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BED9F1E9F9A18000DEACD /* AppIcon.appiconset */,
+				6E4BEDA11E9F9A18000DEACD /* LaunchScreen.storyboard */,
+				6E4BEDA31E9F9A18000DEACD /* Main.storyboard */,
+				6E4BEDA51E9F9A18000DEACD /* html */,
+				6E4BEDA61E9F9A18000DEACD /* image */,
+				6E4BEDA71E9F9A18000DEACD /* plist */,
+				6E4BEDA91E9F9A18000DEACD /* storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		6E4BED9F1E9F9A18000DEACD /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BEDA01E9F9A18000DEACD /* Contents.json */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		6E4BEDA51E9F9A18000DEACD /* html */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = html;
+			sourceTree = "<group>";
+		};
+		6E4BEDA61E9F9A18000DEACD /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		6E4BEDA71E9F9A18000DEACD /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BEDA81E9F9A18000DEACD /* Info.plist */,
+			);
+			path = plist;
+			sourceTree = "<group>";
+		};
+		6E4BEDA91E9F9A18000DEACD /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		6E4BEDAA1E9F9A18000DEACD /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				6E4BEDAB1E9F9A18000DEACD /* Club */,
+				6E4BEDAC1E9F9A18000DEACD /* Login */,
+				6E4BEDAD1E9F9A18000DEACD /* PrivateAdvisoryBoard */,
+				6E4BEDAE1E9F9A18000DEACD /* Steward */,
+				6E4BEDAF1E9F9A18000DEACD /* Tribe */,
+				6E4BEDB01E9F9A18000DEACD /* User */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		6E4BEDAB1E9F9A18000DEACD /* Club */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Club;
+			sourceTree = "<group>";
+		};
+		6E4BEDAC1E9F9A18000DEACD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6E4BEDAD1E9F9A18000DEACD /* PrivateAdvisoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PrivateAdvisoryBoard;
+			sourceTree = "<group>";
+		};
+		6E4BEDAE1E9F9A18000DEACD /* Steward */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Steward;
+			sourceTree = "<group>";
+		};
+		6E4BEDAF1E9F9A18000DEACD /* Tribe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tribe;
+			sourceTree = "<group>";
+		};
+		6E4BEDB01E9F9A18000DEACD /* User */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 		C224A0BFBD5FC845E9207369 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6E4BEDE71E9F9CF4000DEACD /* Security.framework */,
+				6E4BEDE51E9F9CED000DEACD /* CoreTelephony.framework */,
+				6E4BEDE31E9F9CD1000DEACD /* SystemConfiguration.framework */,
+				6E4BEDE11E9F9C75000DEACD /* CFNetwork.framework */,
+				6E4BEDDF1E9F9C49000DEACD /* libz.tbd */,
+				6E4BEDDD1E9F9C33000DEACD /* libsqlite3.tbd */,
+				6E4BEDDB1E9F9C29000DEACD /* libstdc++.tbd */,
+				6E4BEDC11E9F9A61000DEACD /* AFNetworking.framework */,
+				6E4BEDC21E9F9A61000DEACD /* Alamofire.framework */,
+				6E4BEDC31E9F9A61000DEACD /* HappyDNS.framework */,
+				6E4BEDC41E9F9A61000DEACD /* Kingfisher.framework */,
+				6E4BEDC51E9F9A61000DEACD /* Qiniu.framework */,
+				6E4BEDC61E9F9A61000DEACD /* Realm.framework */,
+				6E4BEDC71E9F9A61000DEACD /* RealmSwift.framework */,
+				6E4BEDC81E9F9A61000DEACD /* SnapKit.framework */,
+				6E4BEDC91E9F9A61000DEACD /* SVProgressHUD.framework */,
 				F37C74929888D85D5B8BC7C5 /* Pods_iosblackcard.framework */,
 			);
 			name = Frameworks;
@@ -220,6 +502,7 @@
 				TargetAttributes = {
 					6E4BED531E9F9138000DEACD = {
 						CreatedOnToolsVersion = 8.2;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					6E4BED671E9F9139000DEACD = {
@@ -259,9 +542,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E4BED621E9F9138000DEACD /* LaunchScreen.storyboard in Resources */,
-				6E4BED5F1E9F9138000DEACD /* Assets.xcassets in Resources */,
-				6E4BED5D1E9F9138000DEACD /* Main.storyboard in Resources */,
+				6E4BEDBE1E9F9A18000DEACD /* LaunchScreen.storyboard in Resources */,
+				6E4BEDB91E9F9A18000DEACD /* README.txt in Resources */,
+				6E4BEDBD1E9F9A18000DEACD /* Contents.json in Resources */,
+				6E4BEDC01E9F9A18000DEACD /* Info.plist in Resources */,
+				6E4BEDBF1E9F9A18000DEACD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,8 +619,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E4BED5A1E9F9138000DEACD /* ViewController.swift in Sources */,
-				6E4BED581E9F9138000DEACD /* AppDelegate.swift in Sources */,
+				6E4BEDD61E9F9B48000DEACD /* String+Extension.swift in Sources */,
+				6E4BEDBC1E9F9A18000DEACD /* ViewController.swift in Sources */,
+				6E4BEDBA1E9F9A18000DEACD /* AppConst.swift in Sources */,
+				6E4BEDB11E9F9A18000DEACD /* AppAPIHelper.swift in Sources */,
+				6E4BEDBB1E9F9A18000DEACD /* AppDelegate.swift in Sources */,
+				6E4BEDB21E9F9A18000DEACD /* HttpModelHelper.swift in Sources */,
+				6E4BEDB31E9F9A18000DEACD /* HttpRequestManage.swift in Sources */,
+				6E4BEDD41E9F9B3C000DEACD /* SVProgressHUDExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,20 +662,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6E4BED5B1E9F9138000DEACD /* Main.storyboard */ = {
+		6E4BEDA11E9F9A18000DEACD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6E4BED5C1E9F9138000DEACD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6E4BED601E9F9138000DEACD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6E4BED611E9F9138000DEACD /* Base */,
+				6E4BEDA21E9F9A18000DEACD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6E4BEDA31E9F9A18000DEACD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E4BEDA41E9F9A18000DEACD /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -488,10 +779,26 @@
 			baseConfigurationReference = 930268F7BDDA72E56B04CD7D /* Pods-iosblackcard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = iosblackcard/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/HappyDNS",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Qiniu",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Realm",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RealmSwift",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SVProgressHUD",
+				);
+				INFOPLIST_FILE = iosblackcard/Resource/plist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iosblackcard/Library/WeChatSDK1.7.4",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YunDian.iosblackcard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iosblackcard/Other/iosblackcard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -501,10 +808,25 @@
 			baseConfigurationReference = C152F06A0714394665334365 /* Pods-iosblackcard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = iosblackcard/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/HappyDNS",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Qiniu",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Realm",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/RealmSwift",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SVProgressHUD",
+				);
+				INFOPLIST_FILE = iosblackcard/Resource/plist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iosblackcard/Library/WeChatSDK1.7.4",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.YunDian.iosblackcard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iosblackcard/Other/iosblackcard-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -582,6 +904,7 @@
 				6E4BED7E1E9F9139000DEACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E4BED7F1E9F9139000DEACD /* Build configuration list for PBXNativeTarget "iosblackcardTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +913,7 @@
 				6E4BED811E9F9139000DEACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6E4BED821E9F9139000DEACD /* Build configuration list for PBXNativeTarget "iosblackcardUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +922,7 @@
 				6E4BED841E9F9139000DEACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
