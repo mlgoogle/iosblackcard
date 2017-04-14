@@ -8,13 +8,55 @@
 //
 
 import UIKit
-
-
 extension String {
     func trim() -> String {
         return  self.trimmingCharacters(in: CharacterSet.whitespacesAndNewlines)
     }
     
+    
+   static func diverseStringOriginalStr(original : String,conversionStr : String,withFont : UIFont,withColor: UIColor) ->NSMutableAttributedString{
+        
+        
+        
+        let range : NSRange = (original as NSString).range(of: conversionStr as String)
+        
+        let str = NSMutableAttributedString(string: original as String)
+        
+        
+        
+        str.addAttribute(NSForegroundColorAttributeName, value: withColor, range: range)
+        
+        str.addAttribute(NSFontAttributeName, value: withFont, range: range)
+        
+        return str
+        
+    }
+    
+    
+   static func diverseStringOriginalStr(original : String,conversionStrArr conversionArr : NSArray,withFont : UIFont, color : UIColor) -> NSMutableAttributedString {
+        
+        
+        
+        let str = NSMutableAttributedString(string: original as String)
+        
+        
+        
+        for subStr in conversionArr{
+            
+            let range : NSRange = (original as NSString).range(of: subStr as! String)
+            
+            
+            
+            str.addAttribute(NSForegroundColorAttributeName, value: color, range: range)
+            
+            str.addAttribute(NSFontAttributeName, value: withFont, range: range)
+            
+        }
+        
+        return str
+        
+    }
+ 
     static func stringAttributes(_ font:UIFont,lineSpacing:CGFloat) ->[String:AnyObject]{
         let paragraphStyle = NSMutableParagraphStyle()
         paragraphStyle.lineSpacing = lineSpacing
@@ -176,4 +218,6 @@ extension String {
         
         return ""
     }
+    
+  
 }
