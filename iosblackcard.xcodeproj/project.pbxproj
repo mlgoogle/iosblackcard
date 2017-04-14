@@ -40,6 +40,9 @@
 		6E4BEDE61E9F9CED000DEACD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDE51E9F9CED000DEACD /* CoreTelephony.framework */; };
 		6E4BEDE81E9F9CF4000DEACD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDE71E9F9CF4000DEACD /* Security.framework */; };
 		750D03863A6F9E7E8B5DA238 /* Pods_iosblackcard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37C74929888D85D5B8BC7C5 /* Pods_iosblackcard.framework */; };
+		A01EE35E1EA0542200FD8503 /* ShowImgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01EE35D1EA0542200FD8503 /* ShowImgView.swift */; };
+		A01EE3691EA0796500FD8503 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01EE3681EA0796500FD8503 /* BaseNavigationController.swift */; };
+		A062E2421E9FB90300130125 /* RegistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A062E2411E9FB90300130125 /* RegistVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +105,9 @@
 		6E4BEDE51E9F9CED000DEACD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		6E4BEDE71E9F9CF4000DEACD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		930268F7BDDA72E56B04CD7D /* Pods-iosblackcard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosblackcard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosblackcard/Pods-iosblackcard.debug.xcconfig"; sourceTree = "<group>"; };
+		A01EE35D1EA0542200FD8503 /* ShowImgView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowImgView.swift; sourceTree = "<group>"; };
+		A01EE3681EA0796500FD8503 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		A062E2411E9FB90300130125 /* RegistVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistVC.swift; path = "iosblackcard/Login&Regist/RegistVC.swift"; sourceTree = SOURCE_ROOT; };
 		C152F06A0714394665334365 /* Pods-iosblackcard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosblackcard.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosblackcard/Pods-iosblackcard.release.xcconfig"; sourceTree = "<group>"; };
 		F37C74929888D85D5B8BC7C5 /* Pods_iosblackcard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosblackcard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -217,18 +223,11 @@
 		6E4BED891E9F9A18000DEACD /* General */ = {
 			isa = PBXGroup;
 			children = (
-				6E4BED8A1E9F9A18000DEACD /* Base */,
+				A01EE3671EA0796500FD8503 /* Base */,
 				6E4BED8F1E9F9A18000DEACD /* Extension */,
 				6E4BED901E9F9A18000DEACD /* Helper */,
 			);
 			path = General;
-			sourceTree = "<group>";
-		};
-		6E4BED8A1E9F9A18000DEACD /* Base */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Base;
 			sourceTree = "<group>";
 		};
 		6E4BED8F1E9F9A18000DEACD /* Extension */ = {
@@ -286,6 +285,7 @@
 		6E4BED9B1E9F9A18000DEACD /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				A01EE35C1EA053E800FD8503 /* CustomerView */,
 				6E4BED9C1E9F9A18000DEACD /* AppDelegate.swift */,
 				6E4BED9D1E9F9A18000DEACD /* ViewController.swift */,
 			);
@@ -366,6 +366,7 @@
 		6E4BEDAC1E9F9A18000DEACD /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				A062E2411E9FB90300130125 /* RegistVC.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -396,6 +397,22 @@
 			children = (
 			);
 			path = User;
+			sourceTree = "<group>";
+		};
+		A01EE35C1EA053E800FD8503 /* CustomerView */ = {
+			isa = PBXGroup;
+			children = (
+				A01EE35D1EA0542200FD8503 /* ShowImgView.swift */,
+			);
+			path = CustomerView;
+			sourceTree = "<group>";
+		};
+		A01EE3671EA0796500FD8503 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A01EE3681EA0796500FD8503 /* BaseNavigationController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		C224A0BFBD5FC845E9207369 /* Frameworks */ = {
@@ -626,6 +643,9 @@
 				6E4BEDBB1E9F9A18000DEACD /* AppDelegate.swift in Sources */,
 				6E4BEDB21E9F9A18000DEACD /* HttpModelHelper.swift in Sources */,
 				6E4BEDB31E9F9A18000DEACD /* HttpRequestManage.swift in Sources */,
+				A01EE3691EA0796500FD8503 /* BaseNavigationController.swift in Sources */,
+				A01EE35E1EA0542200FD8503 /* ShowImgView.swift in Sources */,
+				A062E2421E9FB90300130125 /* RegistVC.swift in Sources */,
 				6E4BEDD41E9F9B3C000DEACD /* SVProgressHUDExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
