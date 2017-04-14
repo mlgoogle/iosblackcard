@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0EEF4F1EA0C7CA00851673 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF4E1EA0C7CA00851673 /* BaseTabBarController.swift */; };
+		6E0EEF511EA0C9BB00851673 /* ClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF501EA0C9BB00851673 /* ClubViewController.swift */; };
+		6E0EEF531EA0C9D000851673 /* PrivateAdvisoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF521EA0C9D000851673 /* PrivateAdvisoryViewController.swift */; };
+		6E0EEF551EA0C9E000851673 /* StewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF541EA0C9E000851673 /* StewardViewController.swift */; };
+		6E0EEF571EA0C9EC00851673 /* TribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF561EA0C9EC00851673 /* TribeViewController.swift */; };
+		6E0EEF591EA0C9F700851673 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF581EA0C9F700851673 /* UserViewController.swift */; };
+		6E0EEF5C1EA0CA8000851673 /* BlackCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF5B1EA0CA8000851673 /* BlackCardViewController.swift */; };
+		6E0EEF611EA0D6ED00851673 /* nav_clear.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0EEF5F1EA0D6ED00851673 /* nav_clear.png */; };
+		6E0EEF621EA0D6ED00851673 /* nav_clear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E0EEF601EA0D6ED00851673 /* nav_clear@2x.png */; };
 		6E4BED6D1E9F9139000DEACD /* iosblackcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED6C1E9F9139000DEACD /* iosblackcardTests.swift */; };
 		6E4BED781E9F9139000DEACD /* iosblackcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED771E9F9139000DEACD /* iosblackcardUITests.swift */; };
 		6E4BEDB11E9F9A18000DEACD /* AppAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED861E9F9A18000DEACD /* AppAPIHelper.swift */; };
@@ -40,7 +49,6 @@
 		6E4BEDE61E9F9CED000DEACD /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDE51E9F9CED000DEACD /* CoreTelephony.framework */; };
 		6E4BEDE81E9F9CF4000DEACD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDE71E9F9CF4000DEACD /* Security.framework */; };
 		750D03863A6F9E7E8B5DA238 /* Pods_iosblackcard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37C74929888D85D5B8BC7C5 /* Pods_iosblackcard.framework */; };
-		A01EE35E1EA0542200FD8503 /* ShowImgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01EE35D1EA0542200FD8503 /* ShowImgView.swift */; };
 		A01EE3691EA0796500FD8503 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01EE3681EA0796500FD8503 /* BaseNavigationController.swift */; };
 		A062E2421E9FB90300130125 /* RegistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A062E2411E9FB90300130125 /* RegistVC.swift */; };
 /* End PBXBuildFile section */
@@ -63,6 +71,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E0EEF4E1EA0C7CA00851673 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		6E0EEF501EA0C9BB00851673 /* ClubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClubViewController.swift; sourceTree = "<group>"; };
+		6E0EEF521EA0C9D000851673 /* PrivateAdvisoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateAdvisoryViewController.swift; sourceTree = "<group>"; };
+		6E0EEF541EA0C9E000851673 /* StewardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StewardViewController.swift; sourceTree = "<group>"; };
+		6E0EEF561EA0C9EC00851673 /* TribeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TribeViewController.swift; sourceTree = "<group>"; };
+		6E0EEF581EA0C9F700851673 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		6E0EEF5B1EA0CA8000851673 /* BlackCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackCardViewController.swift; sourceTree = "<group>"; };
+		6E0EEF5F1EA0D6ED00851673 /* nav_clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_clear.png; sourceTree = "<group>"; };
+		6E0EEF601EA0D6ED00851673 /* nav_clear@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_clear@2x.png"; sourceTree = "<group>"; };
 		6E4BED541E9F9138000DEACD /* iosblackcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosblackcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4BED681E9F9139000DEACD /* iosblackcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosblackcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E4BED6C1E9F9139000DEACD /* iosblackcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosblackcardTests.swift; sourceTree = "<group>"; };
@@ -105,7 +122,6 @@
 		6E4BEDE51E9F9CED000DEACD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		6E4BEDE71E9F9CF4000DEACD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		930268F7BDDA72E56B04CD7D /* Pods-iosblackcard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosblackcard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosblackcard/Pods-iosblackcard.debug.xcconfig"; sourceTree = "<group>"; };
-		A01EE35D1EA0542200FD8503 /* ShowImgView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowImgView.swift; sourceTree = "<group>"; };
 		A01EE3681EA0796500FD8503 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		A062E2411E9FB90300130125 /* RegistVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistVC.swift; path = "iosblackcard/Login&Regist/RegistVC.swift"; sourceTree = SOURCE_ROOT; };
 		C152F06A0714394665334365 /* Pods-iosblackcard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosblackcard.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosblackcard/Pods-iosblackcard.release.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +171,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E0EEF5A1EA0CA7300851673 /* BlackCard */ = {
+			isa = PBXGroup;
+			children = (
+				6E0EEF5B1EA0CA8000851673 /* BlackCardViewController.swift */,
+			);
+			path = BlackCard;
+			sourceTree = "<group>";
+		};
 		6E4BED4B1E9F9138000DEACD = {
 			isa = PBXGroup;
 			children = (
@@ -285,9 +309,9 @@
 		6E4BED9B1E9F9A18000DEACD /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				A01EE35C1EA053E800FD8503 /* CustomerView */,
 				6E4BED9C1E9F9A18000DEACD /* AppDelegate.swift */,
 				6E4BED9D1E9F9A18000DEACD /* ViewController.swift */,
+				6E0EEF4E1EA0C7CA00851673 /* BaseTabBarController.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -324,6 +348,8 @@
 		6E4BEDA61E9F9A18000DEACD /* image */ = {
 			isa = PBXGroup;
 			children = (
+				6E0EEF5F1EA0D6ED00851673 /* nav_clear.png */,
+				6E0EEF601EA0D6ED00851673 /* nav_clear@2x.png */,
 			);
 			path = image;
 			sourceTree = "<group>";
@@ -346,6 +372,7 @@
 		6E4BEDAA1E9F9A18000DEACD /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				6E0EEF5A1EA0CA7300851673 /* BlackCard */,
 				6E4BEDAB1E9F9A18000DEACD /* Club */,
 				6E4BEDAC1E9F9A18000DEACD /* Login */,
 				6E4BEDAD1E9F9A18000DEACD /* PrivateAdvisoryBoard */,
@@ -359,6 +386,7 @@
 		6E4BEDAB1E9F9A18000DEACD /* Club */ = {
 			isa = PBXGroup;
 			children = (
+				6E0EEF501EA0C9BB00851673 /* ClubViewController.swift */,
 			);
 			path = Club;
 			sourceTree = "<group>";
@@ -374,6 +402,7 @@
 		6E4BEDAD1E9F9A18000DEACD /* PrivateAdvisoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				6E0EEF521EA0C9D000851673 /* PrivateAdvisoryViewController.swift */,
 			);
 			path = PrivateAdvisoryBoard;
 			sourceTree = "<group>";
@@ -381,6 +410,7 @@
 		6E4BEDAE1E9F9A18000DEACD /* Steward */ = {
 			isa = PBXGroup;
 			children = (
+				6E0EEF541EA0C9E000851673 /* StewardViewController.swift */,
 			);
 			path = Steward;
 			sourceTree = "<group>";
@@ -388,6 +418,7 @@
 		6E4BEDAF1E9F9A18000DEACD /* Tribe */ = {
 			isa = PBXGroup;
 			children = (
+				6E0EEF561EA0C9EC00851673 /* TribeViewController.swift */,
 			);
 			path = Tribe;
 			sourceTree = "<group>";
@@ -395,16 +426,9 @@
 		6E4BEDB01E9F9A18000DEACD /* User */ = {
 			isa = PBXGroup;
 			children = (
+				6E0EEF581EA0C9F700851673 /* UserViewController.swift */,
 			);
 			path = User;
-			sourceTree = "<group>";
-		};
-		A01EE35C1EA053E800FD8503 /* CustomerView */ = {
-			isa = PBXGroup;
-			children = (
-				A01EE35D1EA0542200FD8503 /* ShowImgView.swift */,
-			);
-			path = CustomerView;
 			sourceTree = "<group>";
 		};
 		A01EE3671EA0796500FD8503 /* Base */ = {
@@ -560,7 +584,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E4BEDBE1E9F9A18000DEACD /* LaunchScreen.storyboard in Resources */,
+				6E0EEF611EA0D6ED00851673 /* nav_clear.png in Resources */,
 				6E4BEDB91E9F9A18000DEACD /* README.txt in Resources */,
+				6E0EEF621EA0D6ED00851673 /* nav_clear@2x.png in Resources */,
 				6E4BEDBD1E9F9A18000DEACD /* Contents.json in Resources */,
 				6E4BEDC01E9F9A18000DEACD /* Info.plist in Resources */,
 				6E4BEDBF1E9F9A18000DEACD /* Main.storyboard in Resources */,
@@ -637,14 +663,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E4BEDD61E9F9B48000DEACD /* String+Extension.swift in Sources */,
+				6E0EEF5C1EA0CA8000851673 /* BlackCardViewController.swift in Sources */,
+				6E0EEF591EA0C9F700851673 /* UserViewController.swift in Sources */,
+				6E0EEF551EA0C9E000851673 /* StewardViewController.swift in Sources */,
 				6E4BEDBC1E9F9A18000DEACD /* ViewController.swift in Sources */,
+				6E0EEF571EA0C9EC00851673 /* TribeViewController.swift in Sources */,
 				6E4BEDBA1E9F9A18000DEACD /* AppConst.swift in Sources */,
 				6E4BEDB11E9F9A18000DEACD /* AppAPIHelper.swift in Sources */,
 				6E4BEDBB1E9F9A18000DEACD /* AppDelegate.swift in Sources */,
 				6E4BEDB21E9F9A18000DEACD /* HttpModelHelper.swift in Sources */,
 				6E4BEDB31E9F9A18000DEACD /* HttpRequestManage.swift in Sources */,
 				A01EE3691EA0796500FD8503 /* BaseNavigationController.swift in Sources */,
-				A01EE35E1EA0542200FD8503 /* ShowImgView.swift in Sources */,
+				6E0EEF511EA0C9BB00851673 /* ClubViewController.swift in Sources */,
+				6E0EEF4F1EA0C7CA00851673 /* BaseTabBarController.swift in Sources */,
+				6E0EEF531EA0C9D000851673 /* PrivateAdvisoryViewController.swift in Sources */,
 				A062E2421E9FB90300130125 /* RegistVC.swift in Sources */,
 				6E4BEDD41E9F9B3C000DEACD /* SVProgressHUDExt.swift in Sources */,
 			);
