@@ -28,8 +28,7 @@ class HttpRequestModel: Object {
         
         mutabledic.setValuesForKeys(dictionary)
 
-//0
-        self.appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String
+        appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as! String
         var signString = AppConst.Network.TttpHostUrl + requestPath
         for prop in objectSchema.properties as [Property]! {
             if prop.name == "requestPath" {
