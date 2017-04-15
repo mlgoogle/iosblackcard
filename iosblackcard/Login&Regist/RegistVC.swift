@@ -101,6 +101,7 @@ class RegistVC: UIViewController ,CustomerCollectionviewDelegate {
 //        self.bgView.layoutIfNeeded()
     }
     func initUI(){
+        
         view.backgroundColor = UIColor.white
         view.addSubview(bgScrollView)
         bgScrollView.addSubview(bgView)
@@ -110,7 +111,7 @@ class RegistVC: UIViewController ,CustomerCollectionviewDelegate {
             make.right.equalTo(0)
             make.bottom.equalTo(0)
         }
-        
+        //设置大背景
         bgView.snp.makeConstraints { (make) in
             make.top.equalTo(0)
             make.left.equalTo(0)
@@ -129,14 +130,13 @@ class RegistVC: UIViewController ,CustomerCollectionviewDelegate {
         }
         bannerImg.image = UIImage.init(named: "rechargebanner")
     
-        //设置title
+        //设置title 标题栏
         let customer : CustomerView = CustomerView.init(frame: CGRect.init(x: 0, y: 0, width: self.view.frame.size.width, height: 90))
          bgView.addSubview(customer)
 //         customer.backgroundColor = UIColor.red
          customer.snp.makeConstraints { (make) in
-        
             make.left.equalTo(0)
-             make.top.equalTo(bannerImg.snp.bottom)
+            make.top.equalTo(bannerImg.snp.bottom)
             make.right.equalTo(0)
             make.height.equalTo(90)
         }
@@ -207,7 +207,6 @@ class RegistVC: UIViewController ,CustomerCollectionviewDelegate {
         bgView.addSubview(docustomer)
         //         customer.backgroundColor = UIColor.red
         docustomer.snp.makeConstraints { (make) in
-            
             make.left.equalTo(0)
             make.top.equalTo(lineboomtitle.snp.bottom).offset(20)
             make.right.equalTo(0)
