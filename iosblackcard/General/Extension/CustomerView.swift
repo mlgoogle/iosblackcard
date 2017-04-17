@@ -11,42 +11,31 @@ import UIKit
 class BaseCustomerCell: UICollectionViewCell {
     
     
-//       var title : UILabel!
-//       var account : UILabel!
-      override init(frame: CGRect) {
-//        
-    super.init(frame: frame)
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+       
     }
-
-    func update(model:AnyObject){
     
-//        title.text = model.keys.first
-//        account.text = model[model.keys.first!]
-//        title.textAlignment = .center
-//        account.textAlignment = .center
-    
-    }
     
     required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    override func awakeFromNib() {
-        
+        super.init(coder: aDecoder)
     }
     
-    func update(object: AnyObject, hiddle: Bool) {
+    func update(model:AnyObject, withAnimal :Bool){
         
     }
+   
 }
 @objc protocol CustomerCollectionviewDelegate {
-    func didSelectedObject(_ collectionView: UICollectionView, object: AnyObject?)
+    func didSelectedObject( tag: Int , selectRow : Int  ,object: AnyObject?)
 }
-class CustomerView: UIView,UICollectionViewDelegate,UICollectionViewDataSource {
+class CustomerView: UIView,UICollectionViewDelegate,UICollectionViewDataSource ,UICollectionViewDelegateFlowLayout{
 
     
-    
+    var selectIndexPath: IndexPath = IndexPath.init(row: 0, section: 0)
     var  collectView : UICollectionView!
-     var  delegate : CustomerCollectionviewDelegate!
+    var  canChoose : Bool = false
+    var  delegate : CustomerCollectionviewDelegate!
     override init(frame : CGRect){
 
         super.init(frame: frame)
@@ -58,37 +47,45 @@ class CustomerView: UIView,UICollectionViewDelegate,UICollectionViewDataSource {
             if reuseIdentifier == nil {
                 return
             }
-        collectView.register(BaseCustomerCell.self, forCellWithReuseIdentifier:  reuseIdentifier ?? "MyCell")
+       
+      let customer  =   stringClassFromString(className: reuseIdentifier!) as? UICollectionViewCell.Type
+          collectView.register(customer.self, forCellWithReuseIdentifier:  reuseIdentifier ?? "MyCell")
            collectView.reloadData()
         }
     }
+    //传进来的数据源
     var objects: [AnyObject]? {
         didSet{
             collectView.reloadData()
         }
     }
+    //设置UICollectionViewLayout
     var flowLayout: UICollectionViewLayout? {
         didSet{
             collectView.collectionViewLayout = flowLayout!
+            
         }
     }
+     //设置cgsize optional
+    var size : CGSize?
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     func initUI(){
     
-        let flowLayout : UICollectionViewFlowLayout = UICollectionViewFlowLayout.init()
-        flowLayout.itemSize = CGSize.init(width: (320 - 50 - 40)/4, height: (320 - 50 - 34)/4)
-        flowLayout.minimumLineSpacing = 10
-        flowLayout.scrollDirection = .vertical
-        flowLayout.minimumInteritemSpacing = 5
-        flowLayout.sectionInset=UIEdgeInsetsMake(10, 10, 5, 10)
+        let layout : UICollectionViewFlowLayout = UICollectionViewFlowLayout.init()
+        layout.itemSize = CGSize.init(width: (self.frame.size.width - 50 - 40)/4, height: (self.frame.size.width - 50 - 34)/4)
+       
+        layout.minimumLineSpacing = 10
+        layout.scrollDirection = .vertical
+        layout.minimumInteritemSpacing = 5
+        layout.sectionInset=UIEdgeInsetsMake(10, 10, 5, 10)
         
-        self.collectView = UICollectionView.init(frame: CGRect.init(x: 0, y: 0 , width: self.frame.size.width, height: self.frame.size.height), collectionViewLayout: flowLayout)
+        self.collectView = UICollectionView.init(frame: CGRect.init(x: 0, y: 0 , width: self.frame.size.width, height: self.frame.size.height), collectionViewLayout: layout)
         
         self.addSubview(collectView)
     
-        collectView.collectionViewLayout = flowLayout
+        collectView.collectionViewLayout = layout
         collectView.register(BaseCustomerCell.self, forCellWithReuseIdentifier: "MyCell")
 
         collectView.delegate = self
@@ -107,10 +104,55 @@ class CustomerView: UIView,UICollectionViewDelegate,UICollectionViewDataSource {
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier ?? "MyCell", for: indexPath) as! BaseCustomerCell
 
-        cell.update(model: (objects?[indexPath.row])!)
-//        cell.update(model: )
+        if indexPath == selectIndexPath{
+        
+            cell.update(model:  (objects?[indexPath.row])!, withAnimal: canChoose)
+        }else{
+         cell.update(model:  (objects?[indexPath.row])!, withAnimal: false)
+        }
+       
         return cell
         
     }
-
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        
+      
+        if canChoose {
+            if indexPath == selectIndexPath{
+                
+                if (size != nil) {
+                    return CGSize.init(width: (size?.width)!+5, height: (size?.height)!+5)
+                }
+                
+                
+                
+            }
+        }
+        
+      
+        if (size != nil) {
+             return size!
+        }
+        return CGSize.init(width: 0, height: 0)
+       
+    }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        
+        selectIndexPath = indexPath
+        if let delegate = delegate {
+            let object = objects?[indexPath.row]
+//            delegate.didSelectedObject(tag: self.tag, object: object)
+            delegate.didSelectedObject(tag: self.tag, selectRow: indexPath.row, object: object)
+        }
+        collectionView.reloadData()
+    }
+    func stringClassFromString(className: String) -> AnyClass! {
+        let namespace = Bundle.main.infoDictionary!["CFBundleExecutable"] as! String;
+        
+        /// 根据命名空间传来的字符串先转换成anyClass
+        let cls: AnyClass = NSClassFromString(namespace + "." + className)!;
+        
+      
+        return cls;
+    }
 }
