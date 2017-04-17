@@ -7,13 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E0EEF4F1EA0C7CA00851673 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF4E1EA0C7CA00851673 /* BaseTabBarController.swift */; };
-		6E0EEF511EA0C9BB00851673 /* ClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF501EA0C9BB00851673 /* ClubViewController.swift */; };
-		6E0EEF531EA0C9D000851673 /* PrivateAdvisoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF521EA0C9D000851673 /* PrivateAdvisoryViewController.swift */; };
-		6E0EEF551EA0C9E000851673 /* StewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF541EA0C9E000851673 /* StewardViewController.swift */; };
-		6E0EEF571EA0C9EC00851673 /* TribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF561EA0C9EC00851673 /* TribeViewController.swift */; };
-		6E0EEF591EA0C9F700851673 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF581EA0C9F700851673 /* UserViewController.swift */; };
-		6E0EEF5C1EA0CA8000851673 /* BlackCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF5B1EA0CA8000851673 /* BlackCardViewController.swift */; };
 		6E4BED6D1E9F9139000DEACD /* iosblackcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED6C1E9F9139000DEACD /* iosblackcardTests.swift */; };
 		6E4BED781E9F9139000DEACD /* iosblackcardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED771E9F9139000DEACD /* iosblackcardUITests.swift */; };
 		6E4BEDB11E9F9A18000DEACD /* AppAPIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED861E9F9A18000DEACD /* AppAPIHelper.swift */; };
@@ -26,15 +19,6 @@
 		6E4BEDBC1E9F9A18000DEACD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BED9D1E9F9A18000DEACD /* ViewController.swift */; };
 		6E4BEDBD1E9F9A18000DEACD /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BEDA01E9F9A18000DEACD /* Contents.json */; };
 		6E4BEDC01E9F9A18000DEACD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BEDA81E9F9A18000DEACD /* Info.plist */; };
-		6E4BEDCA1E9F9A61000DEACD /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC11E9F9A61000DEACD /* AFNetworking.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		6E4BEDCB1E9F9A61000DEACD /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC21E9F9A61000DEACD /* Alamofire.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		6E4BEDCC1E9F9A61000DEACD /* HappyDNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC31E9F9A61000DEACD /* HappyDNS.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		6E4BEDCD1E9F9A61000DEACD /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC41E9F9A61000DEACD /* Kingfisher.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		6E4BEDCE1E9F9A61000DEACD /* Qiniu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC51E9F9A61000DEACD /* Qiniu.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		6E4BEDCF1E9F9A61000DEACD /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC61E9F9A61000DEACD /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		6E4BEDD01E9F9A61000DEACD /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC71E9F9A61000DEACD /* RealmSwift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		6E4BEDD11E9F9A61000DEACD /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC81E9F9A61000DEACD /* SnapKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		6E4BEDD21E9F9A61000DEACD /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC91E9F9A61000DEACD /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6E4BEDD41E9F9B3C000DEACD /* SVProgressHUDExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BEDD31E9F9B3C000DEACD /* SVProgressHUDExt.swift */; };
 		6E4BEDD61E9F9B48000DEACD /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BEDD51E9F9B48000DEACD /* String+Extension.swift */; };
 		6E4BEDDC1E9F9C29000DEACD /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDDB1E9F9C29000DEACD /* libstdc++.tbd */; };
@@ -49,14 +33,24 @@
 		6EC32FFB1EA45294005C8DF9 /* rechargebanner.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EC32FF81EA45294005C8DF9 /* rechargebanner.png */; };
 		6EC330011EA45311005C8DF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC32FFD1EA45311005C8DF9 /* LaunchScreen.storyboard */; };
 		6EC330021EA45311005C8DF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EC32FFF1EA45311005C8DF9 /* Main.storyboard */; };
+		6EC330031EA457A7005C8DF9 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC21E9F9A61000DEACD /* Alamofire.framework */; };
+		6EC330041EA457A7005C8DF9 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC41E9F9A61000DEACD /* Kingfisher.framework */; };
+		6EC330051EA457A7005C8DF9 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC81E9F9A61000DEACD /* SnapKit.framework */; };
+		6EC3300C1EA457A7005C8DF9 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC330061EA457A7005C8DF9 /* AFNetworking.framework */; };
+		6EC3300D1EA457A7005C8DF9 /* HappyDNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC330071EA457A7005C8DF9 /* HappyDNS.framework */; };
+		6EC3300E1EA457A7005C8DF9 /* Qiniu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC330081EA457A7005C8DF9 /* Qiniu.framework */; };
+		6EC3300F1EA457A7005C8DF9 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC330091EA457A7005C8DF9 /* Realm.framework */; };
+		6EC330101EA457A7005C8DF9 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC3300A1EA457A7005C8DF9 /* RealmSwift.framework */; };
+		6EC330111EA457A7005C8DF9 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC3300B1EA457A7005C8DF9 /* SVProgressHUD.framework */; };
 		750D03863A6F9E7E8B5DA238 /* Pods_iosblackcard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37C74929888D85D5B8BC7C5 /* Pods_iosblackcard.framework */; };
 		A01EE3691EA0796500FD8503 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01EE3681EA0796500FD8503 /* BaseNavigationController.swift */; };
-		A01EE3711EA0AC4200FD8503 /* CustomerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01EE3701EA0AC4100FD8503 /* CustomerView.swift */; };
-		A01EE3731EA0D2B100FD8503 /* TitltleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01EE3721EA0D2B100FD8503 /* TitltleCollectionViewCell.swift */; };
 		A062E2421E9FB90300130125 /* RegistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A062E2411E9FB90300130125 /* RegistVC.swift */; };
-		A08A05311EA1BF0100C231FE /* LineTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08A05301EA1BF0100C231FE /* LineTitleView.swift */; };
-		A08A05331EA1C22300C231FE /* ImgItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08A05321EA1C22300C231FE /* ImgItemView.swift */; };
-		A08A05491EA1D53A00C231FE /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08A05481EA1D53A00C231FE /* LoginVC.swift */; };
+		A0C682F71EA4528C001ACD1E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C682F41EA4528C001ACD1E /* LoginVC.swift */; };
+		A0C682F81EA4528C001ACD1E /* LineTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C682F51EA4528C001ACD1E /* LineTitleView.swift */; };
+		A0C682F91EA4528C001ACD1E /* ImgItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C682F61EA4528C001ACD1E /* ImgItemView.swift */; };
+		A0C682FC1EA45308001ACD1E /* ResetPwdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C682FA1EA45308001ACD1E /* ResetPwdVC.swift */; };
+		A0C682FD1EA45308001ACD1E /* CustomerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C682FB1EA45308001ACD1E /* CustomerView.swift */; };
+		A0C682FF1EA45372001ACD1E /* TitltleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C682FE1EA45372001ACD1E /* TitltleCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,14 +122,21 @@
 		6EC32FF81EA45294005C8DF9 /* rechargebanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rechargebanner.png; sourceTree = "<group>"; };
 		6EC32FFE1EA45311005C8DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EC330001EA45311005C8DF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		6EC330061EA457A7005C8DF9 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../Library/Developer/Xcode/DerivedData/iosblackcard-djncflayrpazstevnmtbycudusih/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		6EC330071EA457A7005C8DF9 /* HappyDNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HappyDNS.framework; path = "../../Library/Developer/Xcode/DerivedData/iosblackcard-djncflayrpazstevnmtbycudusih/Build/Products/Debug-iphonesimulator/HappyDNS/HappyDNS.framework"; sourceTree = "<group>"; };
+		6EC330081EA457A7005C8DF9 /* Qiniu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Qiniu.framework; path = "../../Library/Developer/Xcode/DerivedData/iosblackcard-djncflayrpazstevnmtbycudusih/Build/Products/Debug-iphonesimulator/Qiniu/Qiniu.framework"; sourceTree = "<group>"; };
+		6EC330091EA457A7005C8DF9 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../Library/Developer/Xcode/DerivedData/iosblackcard-djncflayrpazstevnmtbycudusih/Build/Products/Debug-iphonesimulator/Realm/Realm.framework"; sourceTree = "<group>"; };
+		6EC3300A1EA457A7005C8DF9 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../Library/Developer/Xcode/DerivedData/iosblackcard-djncflayrpazstevnmtbycudusih/Build/Products/Debug-iphonesimulator/RealmSwift/RealmSwift.framework"; sourceTree = "<group>"; };
+		6EC3300B1EA457A7005C8DF9 /* SVProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SVProgressHUD.framework; path = "../../Library/Developer/Xcode/DerivedData/iosblackcard-djncflayrpazstevnmtbycudusih/Build/Products/Debug-iphonesimulator/SVProgressHUD/SVProgressHUD.framework"; sourceTree = "<group>"; };
 		930268F7BDDA72E56B04CD7D /* Pods-iosblackcard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosblackcard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosblackcard/Pods-iosblackcard.debug.xcconfig"; sourceTree = "<group>"; };
 		A01EE3681EA0796500FD8503 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
-		A01EE3701EA0AC4100FD8503 /* CustomerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomerView.swift; path = iosblackcard/General/Extension/CustomerView.swift; sourceTree = SOURCE_ROOT; };
-		A01EE3721EA0D2B100FD8503 /* TitltleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitltleCollectionViewCell.swift; path = iosblackcard/General/Extension/TitltleCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
 		A062E2411E9FB90300130125 /* RegistVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistVC.swift; path = "iosblackcard/Login&Regist/RegistVC.swift"; sourceTree = SOURCE_ROOT; };
-		A08A05301EA1BF0100C231FE /* LineTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineTitleView.swift; path = iosblackcard/Resource/LineTitleView.swift; sourceTree = SOURCE_ROOT; };
-		A08A05321EA1C22300C231FE /* ImgItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImgItemView.swift; path = iosblackcard/Resource/ImgItemView.swift; sourceTree = SOURCE_ROOT; };
-		A08A05481EA1D53A00C231FE /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = iosblackcard/Resource/LoginVC.swift; sourceTree = SOURCE_ROOT; };
+		A0C682F41EA4528C001ACD1E /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginVC.swift; path = "iosblackcard/Login&Regist/LoginVC.swift"; sourceTree = SOURCE_ROOT; };
+		A0C682F51EA4528C001ACD1E /* LineTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineTitleView.swift; path = "iosblackcard/Login&Regist/LineTitleView.swift"; sourceTree = SOURCE_ROOT; };
+		A0C682F61EA4528C001ACD1E /* ImgItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImgItemView.swift; path = "iosblackcard/Login&Regist/ImgItemView.swift"; sourceTree = SOURCE_ROOT; };
+		A0C682FA1EA45308001ACD1E /* ResetPwdVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResetPwdVC.swift; path = "iosblackcard/Login&Regist/ResetPwdVC.swift"; sourceTree = SOURCE_ROOT; };
+		A0C682FB1EA45308001ACD1E /* CustomerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomerView.swift; path = "iosblackcard/Login&Regist/CustomerView.swift"; sourceTree = SOURCE_ROOT; };
+		A0C682FE1EA45372001ACD1E /* TitltleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitltleCollectionViewCell.swift; path = "iosblackcard/Login&Regist/TitltleCollectionViewCell.swift"; sourceTree = SOURCE_ROOT; };
 		C152F06A0714394665334365 /* Pods-iosblackcard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosblackcard.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosblackcard/Pods-iosblackcard.release.xcconfig"; sourceTree = "<group>"; };
 		F37C74929888D85D5B8BC7C5 /* Pods_iosblackcard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosblackcard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -145,6 +146,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC3300C1EA457A7005C8DF9 /* AFNetworking.framework in Frameworks */,
+				6EC3300D1EA457A7005C8DF9 /* HappyDNS.framework in Frameworks */,
+				6EC3300E1EA457A7005C8DF9 /* Qiniu.framework in Frameworks */,
+				6EC3300F1EA457A7005C8DF9 /* Realm.framework in Frameworks */,
+				6EC330101EA457A7005C8DF9 /* RealmSwift.framework in Frameworks */,
+				6EC330111EA457A7005C8DF9 /* SVProgressHUD.framework in Frameworks */,
+				6EC330031EA457A7005C8DF9 /* Alamofire.framework in Frameworks */,
+				6EC330041EA457A7005C8DF9 /* Kingfisher.framework in Frameworks */,
+				6EC330051EA457A7005C8DF9 /* SnapKit.framework in Frameworks */,
 				6E4BEDE81E9F9CF4000DEACD /* Security.framework in Frameworks */,
 				6E4BEDE61E9F9CED000DEACD /* CoreTelephony.framework in Frameworks */,
 				6E4BEDE41E9F9CD1000DEACD /* SystemConfiguration.framework in Frameworks */,
@@ -152,15 +162,6 @@
 				6E4BEDE01E9F9C49000DEACD /* libz.tbd in Frameworks */,
 				6E4BEDDE1E9F9C33000DEACD /* libsqlite3.tbd in Frameworks */,
 				6E4BEDDC1E9F9C29000DEACD /* libstdc++.tbd in Frameworks */,
-				6E4BEDCA1E9F9A61000DEACD /* AFNetworking.framework in Frameworks */,
-				6E4BEDCB1E9F9A61000DEACD /* Alamofire.framework in Frameworks */,
-				6E4BEDCC1E9F9A61000DEACD /* HappyDNS.framework in Frameworks */,
-				6E4BEDCD1E9F9A61000DEACD /* Kingfisher.framework in Frameworks */,
-				6E4BEDCE1E9F9A61000DEACD /* Qiniu.framework in Frameworks */,
-				6E4BEDCF1E9F9A61000DEACD /* Realm.framework in Frameworks */,
-				6E4BEDD01E9F9A61000DEACD /* RealmSwift.framework in Frameworks */,
-				6E4BEDD11E9F9A61000DEACD /* SnapKit.framework in Frameworks */,
-				6E4BEDD21E9F9A61000DEACD /* SVProgressHUD.framework in Frameworks */,
 				6E4BEDB81E9F9A18000DEACD /* libWeChatSDK.a in Frameworks */,
 				750D03863A6F9E7E8B5DA238 /* Pods_iosblackcard.framework in Frameworks */,
 			);
@@ -376,7 +377,7 @@
 			children = (
 				6E0EEF5A1EA0CA7300851673 /* BlackCard */,
 				6E4BEDAB1E9F9A18000DEACD /* Club */,
-				6E4BEDAC1E9F9A18000DEACD /* Login */,
+				6E4BEDAC1E9F9A18000DEACD /* Login&Regist */,
 				6E4BEDAD1E9F9A18000DEACD /* PrivateAdvisoryBoard */,
 				6E4BEDAE1E9F9A18000DEACD /* Steward */,
 				6E4BEDAF1E9F9A18000DEACD /* Tribe */,
@@ -393,16 +394,18 @@
 			path = Club;
 			sourceTree = "<group>";
 		};
-		6E4BEDAC1E9F9A18000DEACD /* Login */ = {
+		6E4BEDAC1E9F9A18000DEACD /* Login&Regist */ = {
 			isa = PBXGroup;
 			children = (
+				A0C682FA1EA45308001ACD1E /* ResetPwdVC.swift */,
+				A0C682FB1EA45308001ACD1E /* CustomerView.swift */,
 				A062E2411E9FB90300130125 /* RegistVC.swift */,
-				A08A05301EA1BF0100C231FE /* LineTitleView.swift */,
-				A01EE3721EA0D2B100FD8503 /* TitltleCollectionViewCell.swift */,
-				A08A05321EA1C22300C231FE /* ImgItemView.swift */,
-				A01EE3701EA0AC4100FD8503 /* CustomerView.swift */,
-				A08A05481EA1D53A00C231FE /* LoginVC.swift */,
+				A0C682FE1EA45372001ACD1E /* TitltleCollectionViewCell.swift */,
+				A0C682F41EA4528C001ACD1E /* LoginVC.swift */,
+				A0C682F51EA4528C001ACD1E /* LineTitleView.swift */,
+				A0C682F61EA4528C001ACD1E /* ImgItemView.swift */,
 			);
+			name = "Login&Regist";
 			path = Login;
 			sourceTree = "<group>";
 		};
@@ -468,6 +471,12 @@
 		C224A0BFBD5FC845E9207369 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6EC330061EA457A7005C8DF9 /* AFNetworking.framework */,
+				6EC330071EA457A7005C8DF9 /* HappyDNS.framework */,
+				6EC330081EA457A7005C8DF9 /* Qiniu.framework */,
+				6EC330091EA457A7005C8DF9 /* Realm.framework */,
+				6EC3300A1EA457A7005C8DF9 /* RealmSwift.framework */,
+				6EC3300B1EA457A7005C8DF9 /* SVProgressHUD.framework */,
 				6E4BEDE71E9F9CF4000DEACD /* Security.framework */,
 				6E4BEDE51E9F9CED000DEACD /* CoreTelephony.framework */,
 				6E4BEDE31E9F9CD1000DEACD /* SystemConfiguration.framework */,
@@ -679,7 +688,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" 13b0dd85b007ad78249b02fc26fa3972dff8da79 09fbffcee88c3bfa1086819566cdaf4b4c0f451fe57b9699cd9525804778308d";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosblackcard/Pods-iosblackcard-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -690,27 +699,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E4BEDD61E9F9B48000DEACD /* String+Extension.swift in Sources */,
-				6E0EEF5C1EA0CA8000851673 /* BlackCardViewController.swift in Sources */,
-				6E0EEF591EA0C9F700851673 /* UserViewController.swift in Sources */,
-				6E0EEF551EA0C9E000851673 /* StewardViewController.swift in Sources */,
+				A0C682FF1EA45372001ACD1E /* TitltleCollectionViewCell.swift in Sources */,
 				6E4BEDBC1E9F9A18000DEACD /* ViewController.swift in Sources */,
-				6E0EEF571EA0C9EC00851673 /* TribeViewController.swift in Sources */,
-				A01EE3711EA0AC4200FD8503 /* CustomerView.swift in Sources */,
+				A0C682FD1EA45308001ACD1E /* CustomerView.swift in Sources */,
+				A0C682FC1EA45308001ACD1E /* ResetPwdVC.swift in Sources */,
 				6E4BEDBA1E9F9A18000DEACD /* AppConst.swift in Sources */,
+				A0C682F81EA4528C001ACD1E /* LineTitleView.swift in Sources */,
 				6E4BEDB11E9F9A18000DEACD /* AppAPIHelper.swift in Sources */,
-				A08A05311EA1BF0100C231FE /* LineTitleView.swift in Sources */,
 				6E4BEDBB1E9F9A18000DEACD /* AppDelegate.swift in Sources */,
 				6E4BEDB21E9F9A18000DEACD /* HttpModelHelper.swift in Sources */,
-				A01EE3731EA0D2B100FD8503 /* TitltleCollectionViewCell.swift in Sources */,
 				6E4BEDB31E9F9A18000DEACD /* HttpRequestManage.swift in Sources */,
-				A08A05491EA1D53A00C231FE /* LoginVC.swift in Sources */,
 				A01EE3691EA0796500FD8503 /* BaseNavigationController.swift in Sources */,
-				6E0EEF511EA0C9BB00851673 /* ClubViewController.swift in Sources */,
-				6E0EEF4F1EA0C7CA00851673 /* BaseTabBarController.swift in Sources */,
-				6E0EEF531EA0C9D000851673 /* PrivateAdvisoryViewController.swift in Sources */,
+				A0C682F71EA4528C001ACD1E /* LoginVC.swift in Sources */,
 				A062E2421E9FB90300130125 /* RegistVC.swift in Sources */,
 				6E4BEDD41E9F9B3C000DEACD /* SVProgressHUDExt.swift in Sources */,
-				A08A05331EA1C22300C231FE /* ImgItemView.swift in Sources */,
+				A0C682F91EA4528C001ACD1E /* ImgItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -872,6 +875,7 @@
 					"$(PROJECT_DIR)/build/Debug-iphoneos/Realm",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/RealmSwift",
 					"$(PROJECT_DIR)/build/Debug-iphoneos/SVProgressHUD",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SnapKit",
 				);
 				INFOPLIST_FILE = iosblackcard/Resource/plist/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -879,6 +883,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/iosblackcard/Library/WeChatSDK1.7.4",
 				);
+				MACH_O_TYPE = mh_execute;
 				PRODUCT_BUNDLE_IDENTIFIER = com.YunDian.iosblackcard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iosblackcard/Other/iosblackcard-Bridging-Header.h";
@@ -908,6 +913,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/iosblackcard/Library/WeChatSDK1.7.4",
 				);
+				MACH_O_TYPE = mh_execute;
 				PRODUCT_BUNDLE_IDENTIFIER = com.YunDian.iosblackcard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "iosblackcard/Other/iosblackcard-Bridging-Header.h";

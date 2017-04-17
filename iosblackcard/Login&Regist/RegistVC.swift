@@ -120,7 +120,6 @@ class RegistVC: UIViewController ,CustomerCollectionviewDelegate {
             make.bottom.equalTo(0)
             make.height.equalTo(bgScrollView.contentSize.height)
             make.width.equalTo(self.view.frame.size.width)
-            
         }
         bgView.addSubview(bannerImg)
         bannerImg.snp.makeConstraints { (make) in
@@ -141,46 +140,43 @@ class RegistVC: UIViewController ,CustomerCollectionviewDelegate {
             make.right.equalTo(0)
             make.height.equalTo(90)
         }
-        customer.size =  CGSize.init(width: (self.view.frame.size.width - 50 - 70)/3, height: (self.view.frame.size.width - 170)/3)
+        customer.size =  CGSize.init(width: (self.view.frame.size.width - 90)/3, height: 65)
         customer.canChoose = true
         let flowLayout : UICollectionViewFlowLayout = UICollectionViewFlowLayout.init()
-        flowLayout.itemSize = CGSize.init(width: (self.view.frame.size.width - 50 - 40)/3, height: (self.view.frame.size.width - 200)/3)
-        
-        flowLayout.minimumLineSpacing = 20
+    
+        flowLayout.minimumLineSpacing = 10
         flowLayout.scrollDirection = .vertical
-        flowLayout.minimumInteritemSpacing = 20
-        flowLayout.sectionInset=UIEdgeInsetsMake(10, 40, 5, 30)
+        flowLayout.minimumInteritemSpacing = 10
+        flowLayout.sectionInset=UIEdgeInsetsMake(10, 30, 5, 30)
         customer.reuseIdentifier = "TitltleCollectionViewCell"
         customer.flowLayout =  flowLayout
         customer.objects = [["云栖会籍":"¥199.00"] as AnyObject,["云翼会籍":"¥1999.00"] as AnyObject,["云巅会籍":"¥9999.00"] as AnyObject]
         customer.delegate = self
         
-        
+       
+      
         let linetitle : LineTitleView = LineTitleView.init(frame: CGRect.init(x: 0, y: 0, width: self.view.frame.size.width, height: 30))
         bgView.addSubview(linetitle)
         linetitle.title  = "云巅会籍专属特权"
         linetitle.snp.makeConstraints { (make) in
             make.left.equalTo(0)
-            make.top.equalTo(customer.snp.bottom).offset(10)
+            make.top.equalTo(customer.snp.bottom).offset(0)
             make.right.equalTo(0)
             make.height.equalTo(30)
         }
-
-
+        
         //设置 图片展示title
         let customerImg : CustomerView = CustomerView.init(frame: CGRect.init(x: 0, y: 0, width: self.view.frame.size.width, height: 180))
         bgView.addSubview(customerImg)
         customerImg.snp.makeConstraints { (make) in
             
             make.left.equalTo(0)
-            make.top.equalTo(linetitle.snp.bottom).offset(20)
+            make.top.equalTo(linetitle.snp.bottom).offset(10)
             make.right.equalTo(0)
             make.height.equalTo(180)
         }
-        customerImg.size =  CGSize.init(width: (self.view.frame.size.width - 50 - 40)/4, height: (self.view.frame.size.width - 90)/4)
+        customerImg.size =  CGSize.init(width: (self.view.frame.size.width - 90)/4, height: (self.view.frame.size.width - 90)/4)
         let newflowLayout : UICollectionViewFlowLayout = UICollectionViewFlowLayout.init()
-        newflowLayout.itemSize = CGSize.init(width: (self.view.frame.size.width - 50 - 40)/4, height: (self.view.frame.size.width - 40)/4)
-        
         newflowLayout.minimumLineSpacing = 10
         newflowLayout.scrollDirection = .vertical
         newflowLayout.minimumInteritemSpacing = 5
@@ -191,12 +187,29 @@ class RegistVC: UIViewController ,CustomerCollectionviewDelegate {
         customerImg.objects = [["云栖会籍":"¥199.00"] as AnyObject,["云翼会籍":"¥1999.00"] as AnyObject,["云巅会籍":"¥9999.00"] as AnyObject,["云翼会籍":"¥1999.00"] as AnyObject,["云翼会籍":"¥1999.00"] as AnyObject,["云翼会籍":"¥1999.00"] as AnyObject,["云翼会籍":"¥1999.00"] as AnyObject,["云翼会籍":"¥1999.00"] as AnyObject]
 //        customerImg.delegate = self
         
+        var h : Int = 0
+        if UIScreen.main.bounds.size.height <= 568{
+         h = -20
+        }
+        let customerName = UILabel()
+        bgView.addSubview(customerName)
+        customerName.text = "更多特权..."
+        customerName.font = UIFont.systemFont(ofSize: 12)
+        customerName.textColor = transferStringToColor("A6A6A6")
+        customerName.textAlignment = .center
+        customerName.snp.makeConstraints { (make) in
+            make.top.equalTo(customerImg.snp.bottom).offset(h)
+            make.left.equalTo(0)
+            make.right.equalTo(3)
+            make.height.equalTo(15)
+            
+        }
         let lineboomtitle : LineTitleView = LineTitleView.init(frame: CGRect.init(x: 0, y: 0, width: self.view.frame.size.width, height: 30))
         bgView.addSubview(lineboomtitle)
         lineboomtitle.title  = "定制姓名"
         lineboomtitle.snp.makeConstraints { (make) in
             make.left.equalTo(0)
-            make.top.equalTo(customerImg.snp.bottom).offset(10)
+            make.top.equalTo(customerName.snp.bottom).offset(5)
             make.right.equalTo(0)
             make.height.equalTo(30)
         }
@@ -209,27 +222,28 @@ class RegistVC: UIViewController ,CustomerCollectionviewDelegate {
         //         customer.backgroundColor = UIColor.red
         docustomer.snp.makeConstraints { (make) in
             make.left.equalTo(0)
-            make.top.equalTo(lineboomtitle.snp.bottom).offset(20)
+            make.top.equalTo(lineboomtitle.snp.bottom).offset(5)
             make.right.equalTo(0)
             make.height.equalTo(90)
         }
-        docustomer.size =  CGSize.init(width: (self.view.frame.size.width - 120)/2, height: 60)
+        docustomer.size =  CGSize.init(width: (self.view.frame.size.width - 100)/2, height: 60)
         docustomer.canChoose = true
         let docustomerflowLayout : UICollectionViewFlowLayout = UICollectionViewFlowLayout.init()
         docustomerflowLayout.scrollDirection = .vertical
         docustomer.selectIndexPath = NSIndexPath.init(row: 1, section: 0) as IndexPath
-        docustomerflowLayout.minimumInteritemSpacing = 20
-        docustomerflowLayout.sectionInset=UIEdgeInsetsMake(0, 50, 10, 40)
+        docustomerflowLayout.minimumInteritemSpacing = 10
+        docustomerflowLayout.sectionInset=UIEdgeInsetsMake(0, 40, 10, 30)
         docustomer.reuseIdentifier = "CustomerollectionViewCell"
+        docustomer.collectView.isScrollEnabled = false
         docustomer.flowLayout =  docustomerflowLayout
-        docustomer.objects = [["不定制":"黑卡没有姓名"] as AnyObject,["定制姓名":"你的专属黑卡"] as AnyObject]
+        docustomer.objects = [["不定制":"黑卡没有姓名"] as AnyObject,["定制姓名(+50)":"你的专属黑卡"] as AnyObject]
         docustomer.delegate = self
         docustomer.tag = 10010
         
         bgView.addSubview(showBgview)
         showBgview.snp.makeConstraints { (make) in
             make.left.equalTo(0)
-            make.top.equalTo(docustomer.snp.bottom).offset(0)
+            make.top.equalTo(docustomer.snp.bottom).offset(-10)
             make.right.equalTo(0)
             make.height.equalTo(70)
         }
