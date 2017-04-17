@@ -11,6 +11,7 @@ import UIKit
 import SnapKit
 
 
+
 class RegistVC: UIViewController ,CustomerCollectionviewDelegate {
 
  
@@ -279,6 +280,7 @@ class RegistVC: UIViewController ,CustomerCollectionviewDelegate {
         
     }
     
+
    
     internal func didSelectedObject( tag: Int , selectRow : Int  ,object: AnyObject?){
     

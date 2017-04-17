@@ -6,7 +6,6 @@ target 'iosblackcard' do
     
     # Pods for iosblackcwpard
     
-    use_frameworks! # Add this if you are targeting iOS 8+ or using Swift
     pod 'Alamofire', '~> 4.2.0'
     pod 'SVProgressHUD', '~> 2.0.3'
     pod 'Kingfisher', '~> 3.2.2'
