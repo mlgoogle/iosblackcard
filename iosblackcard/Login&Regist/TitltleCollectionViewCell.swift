@@ -36,7 +36,6 @@ class TitltleCollectionViewCell: BaseCustomerCell{
          self.addSubview(Account)
         
         titltLb.snp.makeConstraints { (make) in
-            
             make.top.equalTo(10)
             make.left.equalTo(0)
             make.right.equalTo(0)
