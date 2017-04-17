@@ -42,6 +42,13 @@
 		6EC3300F1EA457A7005C8DF9 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC330091EA457A7005C8DF9 /* Realm.framework */; };
 		6EC330101EA457A7005C8DF9 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC3300A1EA457A7005C8DF9 /* RealmSwift.framework */; };
 		6EC330111EA457A7005C8DF9 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC3300B1EA457A7005C8DF9 /* SVProgressHUD.framework */; };
+		6EC330141EA493F0005C8DF9 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF4E1EA0C7CA00851673 /* BaseTabBarController.swift */; };
+		6EC330151EA49481005C8DF9 /* BlackCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF5B1EA0CA8000851673 /* BlackCardViewController.swift */; };
+		6EC330161EA49485005C8DF9 /* ClubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF501EA0C9BB00851673 /* ClubViewController.swift */; };
+		6EC330171EA49489005C8DF9 /* PrivateAdvisoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF521EA0C9D000851673 /* PrivateAdvisoryViewController.swift */; };
+		6EC330181EA4948C005C8DF9 /* StewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF541EA0C9E000851673 /* StewardViewController.swift */; };
+		6EC330191EA49491005C8DF9 /* TribeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF561EA0C9EC00851673 /* TribeViewController.swift */; };
+		6EC3301A1EA49495005C8DF9 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0EEF581EA0C9F700851673 /* UserViewController.swift */; };
 		750D03863A6F9E7E8B5DA238 /* Pods_iosblackcard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37C74929888D85D5B8BC7C5 /* Pods_iosblackcard.framework */; };
 		A01EE3691EA0796500FD8503 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01EE3681EA0796500FD8503 /* BaseNavigationController.swift */; };
 		A062E2421E9FB90300130125 /* RegistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A062E2411E9FB90300130125 /* RegistVC.swift */; };
@@ -698,6 +705,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC3301A1EA49495005C8DF9 /* UserViewController.swift in Sources */,
+				6EC330191EA49491005C8DF9 /* TribeViewController.swift in Sources */,
+				6EC330181EA4948C005C8DF9 /* StewardViewController.swift in Sources */,
+				6EC330171EA49489005C8DF9 /* PrivateAdvisoryViewController.swift in Sources */,
+				6EC330161EA49485005C8DF9 /* ClubViewController.swift in Sources */,
+				6EC330151EA49481005C8DF9 /* BlackCardViewController.swift in Sources */,
+				6EC330141EA493F0005C8DF9 /* BaseTabBarController.swift in Sources */,
 				6E4BEDD61E9F9B48000DEACD /* String+Extension.swift in Sources */,
 				A0C682FF1EA45372001ACD1E /* TitltleCollectionViewCell.swift in Sources */,
 				6E4BEDBC1E9F9A18000DEACD /* ViewController.swift in Sources */,

@@ -22,14 +22,21 @@ class BaseTabBarController: UITabBarController {
 
         let vcNameArray = ["BlackCardViewController",
                            "TribeViewController",
-                           "ClubViewController",
-                           "PrivateAdvisoryViewController",
+//                           "ClubViewController",
+//                           "PrivateAdvisoryViewController",
                            "StewardViewController",
                            "UserViewController"]
-        let titlesArray = ["黑卡","部落","俱乐部","私董会","管家","我的"]
+        let titlesArray = ["黑卡",
+                           "部落",
+//                           "俱乐部",
+//                           "私董会",
+                           "管家",
+                           "我的"]
         var vcArray = [UIViewController]()
+        let namespace = Bundle.main.infoDictionary!["CFBundleExecutable"] as! String;
         for index in 0...vcNameArray.count - 1 {
-            let cls = NSClassFromString("iosblackcard."+vcNameArray[index]) as? UIViewController.Type
+            let name = namespace + "." + vcNameArray[index]
+            let cls = NSClassFromString(name) as? UIViewController.Type
             guard cls != nil else {
                 return
             }
@@ -44,8 +51,10 @@ class BaseTabBarController: UITabBarController {
                 vcArray.append(nc)
             }
         }
-        tabBar.itemWidth = UIScreen.main.bounds.size.width /  CGFloat(vcArray.count)
         viewControllers = vcArray
     }
-
+    override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
+        
+        present(RegistVC(), animated: true, completion: nil)
+    }
 }
