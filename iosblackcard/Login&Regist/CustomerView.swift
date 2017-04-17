@@ -29,6 +29,7 @@ class BaseCustomerCell: UICollectionViewCell {
 @objc protocol CustomerCollectionviewDelegate {
     func didSelectedObject( tag: Int , selectRow : Int  ,object: AnyObject?)
 }
+
 class CustomerView: UIView,UICollectionViewDelegate,UICollectionViewDataSource ,UICollectionViewDelegateFlowLayout{
 
     
@@ -121,7 +122,7 @@ class CustomerView: UIView,UICollectionViewDelegate,UICollectionViewDataSource ,
             if indexPath == selectIndexPath{
                 
                 if (size != nil) {
-                    return CGSize.init(width: (size?.width)!+5, height: (size?.height)!+5)
+                    return CGSize.init(width: (size?.width)! + 7, height: (size?.height)! + 7)
                 }
                 
                 
