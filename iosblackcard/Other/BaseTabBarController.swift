@@ -29,7 +29,7 @@ class BaseTabBarController: UITabBarController {
         let titlesArray = ["黑卡","部落","俱乐部","私董会","管家","我的"]
         var vcArray = [UIViewController]()
         for index in 0...vcNameArray.count - 1 {
-            let cls = NSClassFromString(vcNameArray[index]) as? UIViewController.Type
+            let cls = NSClassFromString("iosblackcard."+vcNameArray[index]) as? UIViewController.Type
             guard cls != nil else {
                 return
             }
@@ -44,6 +44,7 @@ class BaseTabBarController: UITabBarController {
                 vcArray.append(nc)
             }
         }
+        tabBar.itemWidth = UIScreen.main.bounds.size.width /  CGFloat(vcArray.count)
         viewControllers = vcArray
     }
 

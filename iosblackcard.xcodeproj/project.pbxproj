@@ -30,15 +30,15 @@
 		6E4BEDBE1E9F9A18000DEACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BEDA11E9F9A18000DEACD /* LaunchScreen.storyboard */; };
 		6E4BEDBF1E9F9A18000DEACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BEDA31E9F9A18000DEACD /* Main.storyboard */; };
 		6E4BEDC01E9F9A18000DEACD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E4BEDA81E9F9A18000DEACD /* Info.plist */; };
-		6E4BEDCA1E9F9A61000DEACD /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC11E9F9A61000DEACD /* AFNetworking.framework */; };
-		6E4BEDCB1E9F9A61000DEACD /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC21E9F9A61000DEACD /* Alamofire.framework */; };
-		6E4BEDCC1E9F9A61000DEACD /* HappyDNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC31E9F9A61000DEACD /* HappyDNS.framework */; };
-		6E4BEDCD1E9F9A61000DEACD /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC41E9F9A61000DEACD /* Kingfisher.framework */; };
-		6E4BEDCE1E9F9A61000DEACD /* Qiniu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC51E9F9A61000DEACD /* Qiniu.framework */; };
-		6E4BEDCF1E9F9A61000DEACD /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC61E9F9A61000DEACD /* Realm.framework */; };
-		6E4BEDD01E9F9A61000DEACD /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC71E9F9A61000DEACD /* RealmSwift.framework */; };
-		6E4BEDD11E9F9A61000DEACD /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC81E9F9A61000DEACD /* SnapKit.framework */; };
-		6E4BEDD21E9F9A61000DEACD /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC91E9F9A61000DEACD /* SVProgressHUD.framework */; };
+		6E4BEDCA1E9F9A61000DEACD /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC11E9F9A61000DEACD /* AFNetworking.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6E4BEDCB1E9F9A61000DEACD /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC21E9F9A61000DEACD /* Alamofire.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6E4BEDCC1E9F9A61000DEACD /* HappyDNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC31E9F9A61000DEACD /* HappyDNS.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6E4BEDCD1E9F9A61000DEACD /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC41E9F9A61000DEACD /* Kingfisher.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6E4BEDCE1E9F9A61000DEACD /* Qiniu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC51E9F9A61000DEACD /* Qiniu.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6E4BEDCF1E9F9A61000DEACD /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC61E9F9A61000DEACD /* Realm.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6E4BEDD01E9F9A61000DEACD /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC71E9F9A61000DEACD /* RealmSwift.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6E4BEDD11E9F9A61000DEACD /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC81E9F9A61000DEACD /* SnapKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		6E4BEDD21E9F9A61000DEACD /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDC91E9F9A61000DEACD /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6E4BEDD41E9F9B3C000DEACD /* SVProgressHUDExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BEDD31E9F9B3C000DEACD /* SVProgressHUDExt.swift */; };
 		6E4BEDD61E9F9B48000DEACD /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4BEDD51E9F9B48000DEACD /* String+Extension.swift */; };
 		6E4BEDDC1E9F9C29000DEACD /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDDB1E9F9C29000DEACD /* libstdc++.tbd */; };
@@ -50,6 +50,8 @@
 		6E4BEDE81E9F9CF4000DEACD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4BEDE71E9F9CF4000DEACD /* Security.framework */; };
 		750D03863A6F9E7E8B5DA238 /* Pods_iosblackcard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F37C74929888D85D5B8BC7C5 /* Pods_iosblackcard.framework */; };
 		A01EE3691EA0796500FD8503 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01EE3681EA0796500FD8503 /* BaseNavigationController.swift */; };
+		A01EE3711EA0AC4200FD8503 /* CustomerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01EE3701EA0AC4100FD8503 /* CustomerView.swift */; };
+		A01EE3731EA0D2B100FD8503 /* TitltleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01EE3721EA0D2B100FD8503 /* TitltleCollectionViewCell.swift */; };
 		A062E2421E9FB90300130125 /* RegistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A062E2411E9FB90300130125 /* RegistVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -123,6 +125,8 @@
 		6E4BEDE71E9F9CF4000DEACD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		930268F7BDDA72E56B04CD7D /* Pods-iosblackcard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosblackcard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosblackcard/Pods-iosblackcard.debug.xcconfig"; sourceTree = "<group>"; };
 		A01EE3681EA0796500FD8503 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		A01EE3701EA0AC4100FD8503 /* CustomerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomerView.swift; path = iosblackcard/General/Extension/CustomerView.swift; sourceTree = SOURCE_ROOT; };
+		A01EE3721EA0D2B100FD8503 /* TitltleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TitltleCollectionViewCell.swift; path = iosblackcard/General/Extension/TitltleCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
 		A062E2411E9FB90300130125 /* RegistVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistVC.swift; path = "iosblackcard/Login&Regist/RegistVC.swift"; sourceTree = SOURCE_ROOT; };
 		C152F06A0714394665334365 /* Pods-iosblackcard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosblackcard.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosblackcard/Pods-iosblackcard.release.xcconfig"; sourceTree = "<group>"; };
 		F37C74929888D85D5B8BC7C5 /* Pods_iosblackcard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosblackcard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -395,6 +399,8 @@
 			isa = PBXGroup;
 			children = (
 				A062E2411E9FB90300130125 /* RegistVC.swift */,
+				A01EE3721EA0D2B100FD8503 /* TitltleCollectionViewCell.swift */,
+				A01EE3701EA0AC4100FD8503 /* CustomerView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -668,10 +674,12 @@
 				6E0EEF551EA0C9E000851673 /* StewardViewController.swift in Sources */,
 				6E4BEDBC1E9F9A18000DEACD /* ViewController.swift in Sources */,
 				6E0EEF571EA0C9EC00851673 /* TribeViewController.swift in Sources */,
+				A01EE3711EA0AC4200FD8503 /* CustomerView.swift in Sources */,
 				6E4BEDBA1E9F9A18000DEACD /* AppConst.swift in Sources */,
 				6E4BEDB11E9F9A18000DEACD /* AppAPIHelper.swift in Sources */,
 				6E4BEDBB1E9F9A18000DEACD /* AppDelegate.swift in Sources */,
 				6E4BEDB21E9F9A18000DEACD /* HttpModelHelper.swift in Sources */,
+				A01EE3731EA0D2B100FD8503 /* TitltleCollectionViewCell.swift in Sources */,
 				6E4BEDB31E9F9A18000DEACD /* HttpRequestManage.swift in Sources */,
 				A01EE3691EA0796500FD8503 /* BaseNavigationController.swift in Sources */,
 				6E0EEF511EA0C9BB00851673 /* ClubViewController.swift in Sources */,
